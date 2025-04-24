@@ -1,41 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>São Bento Refrigerações</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
     header { background: #003366; color: #fff; padding: 20px; text-align: center; }
     nav { background: #00509e; text-align: center; padding: 10px; }
     nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
-    .container { padding: 20px; max-width: 1000px; margin: auto; background: #fff; }
+    .recipiente { padding: 20px; max-width: 1000px; margin: auto; background: #fff; }
     h1, h2 { color: #003366; }
     footer { background: #003366; color: #fff; text-align: center; padding: 15px; margin-top: 20px; }
-    .services ul { list-style: none; padding-left: 0; }
-    .services li::before { content: "\2714\0020"; color: #00509e; }
-    .contact-info { margin-top: 20px; font-weight: bold; }
-    .whatsapp-button {
-      background-color: #25D366;
-      color: white;
-      padding: 10px 20px;
-      display: inline-block;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .gallery img {
-      width: 100%;
-      max-width: 300px;
-      margin: 10px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    .gallery { display: flex; flex-wrap: wrap; justify-content: center; }
+    .serviços ul { list-style: none; padding-left: 0; }
+    .serviços li::before { content: "\2714\0020"; color: #00509e; }
+    .informações de contato { margin-top: 20px; font-weight: bold; }
+    .botão-whatsapp { background-color: #25D366; color: white; padding: 10px 20px; display: inline-block; border-radius: 5px; text-decoration: none; font-weight: bold; }
+    .galeria img { width: 100%; max-width: 300px; margin: 10px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+    .galeria { display: flex; flex-wrap: wrap; justify-content: center; }
     .social { margin-top: 15px; }
-    .testimonials { background: #e6f2ff; padding: 20px; border-radius: 10px; margin-top: 20px; }
-    .testimonials blockquote { font-style: italic; margin-bottom: 15px; }
+    .depoimentos { background: #e6f2ff; padding: 20px; border-radius: 10px; margin-top: 20px; }
+    blockquote { font-style: italic; margin-bottom: 15px; }
   </style>
 </head>
 <body>
@@ -46,18 +31,18 @@
   </header>
 
   <nav>
-    <a href="#servicos">Serviços</a>
+    <a href="#serviços">Serviços</a>
     <a href="#sobre">Sobre</a>
     <a href="#fotos">Fotos</a>
     <a href="#depoimentos">Depoimentos</a>
     <a href="#contato">Contato</a>
   </nav>
 
-  <div class="container">
-    <section id="servicos" class="services">
+  <div class="recipiente">
+    <section id="serviços" class="serviços">
       <h2>Serviços</h2>
       <ul>
-        <li>Instalação de ar-condicionado</li>
+        <li>Instalação de ar condicionado</li>
         <li>Manutenção preventiva e corretiva</li>
         <li>Limpeza e higienização de equipamentos</li>
       </ul>
@@ -65,17 +50,17 @@
 
     <section id="sobre">
       <h2>Sobre Nós</h2>
-      <p>Atendemos Patos de Minas e região com agilidade e profissionalismo, oferecendo conforto térmico para lares e empresas. Qualidade garantida, com atendimento direto pelo técnico responsável.</p>
+      <p>Atendemos Patos de Minas e região com agilidade e profissionalismo, oferecendo conforto térmico para casas e empresas. Qualidade garantida, com atendimento direto pelo técnico responsável.</p>
     </section>
 
-    <section id="fotos" class="gallery">
+    <section id="fotos" class="galeria">
       <h2>Galeria de Fotos</h2>
       <img src="https://via.placeholder.com/300x200?text=Serviço+1" alt="Serviço 1" />
       <img src="https://via.placeholder.com/300x200?text=Serviço+2" alt="Serviço 2" />
       <img src="https://via.placeholder.com/300x200?text=Serviço+3" alt="Serviço 3" />
     </section>
 
-    <section id="depoimentos" class="testimonials">
+    <section id="depoimentos" class="depoimentos">
       <h2>Depoimentos</h2>
       <blockquote>"Serviço excelente, rápido e de confiança. Super recomendo!" – João P.</blockquote>
       <blockquote>"Instalação impecável, ótimo atendimento. Nota 10!" – Marina S.</blockquote>
@@ -83,12 +68,12 @@
 
     <section id="contato">
       <h2>Contato</h2>
-      <p class="contact-info">
+      <p class="informações de contato">
         📞 (34) 99790-5632<br>
-        📍 Rua Edgar Ribeiro, 45 - Bairro Cidade Jardim, Patos de Minas - MG<br>
+        📍Rua Edgar Ribeiro, 45 - Bairro Cidade Jardim, Patos de Minas - MG<br>
         ✉️ gusttavoh.o97@gmail.com
       </p>
-      <a class="whatsapp-button" href="https://wa.me/5534997905632" target="_blank">Fale conosco pelo WhatsApp</a>
+      <a class="botão-whatsapp" href="https://wa.me/5534997905632" target="_blank">Fale conosco pelo WhatsApp</a>
       <div class="social">
         <p>Siga-nos no <a href="https://www.instagram.com" target="_blank">Instagram</a></p>
       </div>
